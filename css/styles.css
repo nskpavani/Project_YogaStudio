@@ -1,0 +1,140 @@
+#logo_brand{
+	background: #fff;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+.bgimg2{
+	background-image: url("/images/yoga.jpeg");
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    font-family: 'Inconsolata', monospace;
+    background-color: #fff;
+}
+.bgimg1{
+    background-image:url("/images/aum1.png") ;
+       height:auto;
+     background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:80%;    
+}
+footer .container-fluid{
+    color:#489DBC;
+    background:#545050;
+    position: relative;
+    bottom: 0;
+    width:100%;
+}
+.quote{
+     display:inline-block;
+    vertical-align: middle;
+}
+.float {
+    float: center;
+}
+.image_class{
+    display:inline-block;
+    vertical-align: middle;
+}
+.table_cell {
+    width: 350px; 
+    height: 350px; 
+    display: table-cell; 
+    vertical-align: middle; 
+    border: 1px solid #489DBC; 
+    text-align: center;   
+}
+.cell2{
+    width: 350px; 
+    height: 350px; 
+    display: table-cell; 
+    vertical-align: middle; 
+    border: none; 
+    text-align: left;   
+}
+.navbar-default {
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+     background:#fff;
+    border: none;
+}
+.navbar .navbar-nav{
+    display: block;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    float: left;
+    border: none;
+    color:#767171;
+}
+.navbar .navbar-collapse {
+    text-align: right;    
+}
+.navbar-brand{
+    padding: 0px;
+}
+/*BACKGROUND color for active*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color:#fff;
+    background-color:#489DBC;
+}
+
+.navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:hover,
+ .navbar-default .navbar-nav > .open > a:focus {
+    color:#fff;
+    background-color:#489DBC;
+}
+
+ /*change color of links in drop down here*/
+.navbar-default .navbar-nav .open .dropdown-menu> li> a,
+.navbar-default .navbar-nav .open .dropdown-menu {
+    color:#489DBC;
+    background-color:#fff;
+}
+/*Change rollover cell color here*/
+.nav >li> a:hover,
+.nav > li > a:focus{
+    text-decoration: none;
+    color:#489DBC;
+    background-color:#fff;
+}
+.nav{
+    height: auto;
+    align-self: center;
+    vertical-align: middle;
+}
+
+ /*Sets the text hover color on navbar*/
+.navbar-default .navbar-nav .open .dropdown-menu> li> a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu> li> a:focus {
+    color: #489DBC;
+}
+ .navbar-default .navbar-nav > li > a {
+  color:#489DBC;
+  background-color:#fff; /*Change active text color here*/
+    }
+.retroshadow  {
+  font-family:inherit;
+  font-size: 56px;
+  text-align: center;
+  text-transform:capitalize;
+  text-rendering: optimizeLegibility;    
+    color: gold;
+    opacity: 0%;
+    letter-spacing: .05em; 
+}
