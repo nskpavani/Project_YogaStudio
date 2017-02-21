@@ -6,6 +6,10 @@ address{
     margin:0px;
     color:#0f0f0f;
 }
+.para{
+    font-size: 22px;
+    text-indent: 50px;
+}
 .bgimg2{
 	background-image: url("/images/yoga.jpeg");
     /* Full height */
@@ -53,6 +57,23 @@ footer .container-fluid{
     width: 350px; 
     height: 350px; 
     display: table-cell; 
+    vertical-align: middle; 
+    border: 1px solid #489DBC; 
+    text-align: center;   
+}
+.table_cell2 {
+    width: 350px; 
+    height: 350px; 
+    display: table-cell; 
+    vertical-align: middle; 
+    border: 1px solid #489DBC; 
+    text-align: center;   
+}
+.table_header_group {
+    width: 350px; 
+    height: 350px; 
+    display:table-header-group; 
+    background-color: lightgray;
     vertical-align: middle; 
     border: 1px solid #489DBC; 
     text-align: center;   
@@ -137,4 +158,16 @@ footer .container-fluid{
     color: gold;
     opacity: 0%;
     letter-spacing: .05em; 
+}
+.pageheader{
+    background-image:url("/images/yoga_heading.jpeg");
+   background-repeat: no-repeat;
+    padding: 50px 250px;
+    color:#fff;
+    height: 150px;    
+}
+.breadcrumb{
+    background: none;
+    font-size: 16px;
+    
 }
