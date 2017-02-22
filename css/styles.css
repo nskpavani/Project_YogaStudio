@@ -171,3 +171,10 @@ footer .container-fluid{
     font-size: 16px;
     
 }
+.btn{
+    height: 40px;
+    width: 100px;
+}
+.img-responsive{
+    margin: 0 auto;
+}
