@@ -1,7 +1,7 @@
     <!DOCTYPE html>
     <html lang="en">
 
-   <head>
+     <head>
          <title>Aum Yoga Studio</title>
         <script type="text/javascript" src="https://gc.kis.scr.kaspersky-labs.com/B78A889C-8A5E-2D4E-A8C7-5C3FB01C6AFD/main.js" charset="UTF-8"></script>
         <meta charset="utf-8">
@@ -12,7 +12,7 @@
         <link href="css/styles.css" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     </head>
-        <body>
+    <body>
        <header>
         <div class="container-fluid">  
                 <div class="navigation">
@@ -34,7 +34,7 @@
                         <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="home.html">Home</a></li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                     <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inside the Studio <i class="fa fa-caret-down"></i></a>                              
                                         <ul class="dropdown-menu" role="menu">
                                             <li>
@@ -46,9 +46,7 @@
                                             <li>
                                                 <a href="passes.html">Passes &amp; Promos</a>
                                             </li>
-                                             <li>
-                                                <a href="#">Hours of operation</a>
-                                            </li>
+                                             
                                             <li>
                                                 <a href="gallery.html">Gallary</a>
                                             </li>
@@ -57,7 +55,7 @@
                                             </li>
                                         </ul>
                                 </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Classes <i class="fa fa-caret-down"></i></a>                              
+                            <li class="dropdown"><a href="classes.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Classes <i class="fa fa-caret-down"></i></a>                              
                                         <ul class="dropdown-menu" role="menu">
                                             <li>
                                                 <a href="description.html">Class Description</a>
@@ -76,117 +74,86 @@
                                             </li>                                            
                                         </ul></li>
                             <li><a href="#">News &amp; Events</a></li>
-                            <li class="active"><a href="contactus.html">Contact Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
                         </ul>				
                         </div>
                     </nav>
             </div>
             </div>   
 		</header>
-             <hr>
+        <hr>
         <div class="pageheader">            
-            <h2>Contact Us</h2> 
+            <h2>Classes</h2> 
         </div>
         <div class="container">
-             <ol class="breadcrumb">
+            <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a class="link_bc"href="home.html">Home</a></li>
-                <li class="breadcrumb-item active">Contact Us</li>
+                <li class="breadcrumb-item"><a class="link_bc"href="aboutus.html">Classes</a></li>
             </ol>
             <div class="row row-content">
-               <div class="col-xs-12">
-                  <h3>Location Information</h3> 
-               </div>
-                <div class="col-xs-12 col-sm-4 col-sm-offset-1">
-                       <h5>Our Address</h5>
-                        <address>
-                          121, downtown<br>
-                          City,Alberta<br>
-                          Canada<br>
-                          Tel.: +852 1234 5678<br>
-                          Fax: +852 8765 4321<br>
-                          Email: <a href="mailto:contactus@aumyogastudio.com">contactus@aumyogastudio.com</a>
-                       </address>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-                    <h5>Map of our Location</h5>
-                </div>
-                <div class="col-xs-12 col-sm-11 col-sm-offset-1">
-                    <div class="btn-group" role="group" aria-label="...">
-                        <a type="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
-                        <a type="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
-                        <a type="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
-                    </div>
-                </div>
+            <div class="col-xs-4">
+                <img class="img-responsive"src="images/Passes_Promos2.png"/>
             </div>
-            <div class="row row-content">
-               <div class="col-xs-12">
-                  <h3>Send us your Feedback</h3> 
-               </div>
-                <div class="col-xs-12 col-sm-9">
-                    <form class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <label for="firstname" class="col-sm-2 control-label">First Name</label>                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter First Name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="lastname" class="col-sm-2 control-label">Last Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter Last Name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="telnum" class="col-xs-12 col-sm-2 control-label">Contact Tel.</label>
-                            <div class="col-xs-5 col-sm-4 col-md-3">
-                                <div class="input-group">
-                                    <div class="input-group-addon">(</div>
-                                        <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-                                    <div class="input-group-addon">)</div>
-                                </div>
-                            </div>
-                            <div class="col-xs-7 col-sm-6 col-md-7">
-                                        <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="emailid" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                           <div class="checkbox col-sm-5 col-sm-offset-2">
-                                <label class="checkbox-inline">
-                                    <input type="checkbox" name="approve" value="">
-                                    <strong>May we contact you?</strong>
-                                </label>
-                            </div>
-                            <div class="col-sm-3 col-sm-offset-1">
-                                <select class="form-control">
-                                    <option>Tel.</option>
-                                    <option>Email</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="feedback" class="col-sm-2 control-label">Your Feedback</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-primary">Send Feedback</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-xs-8">
+                    <h1>Aum Yoga Studio<span style="font-weight:900"> Classes</span></h1>
+                <p class="para"> At Aum Yoga Studio, we believe that "With Yoga not only should body become flexible, Your mind and emotions, and above all your conciousness should become flexible"
+                    <br/></p>
+                    <p class="para">Here we practice more on flexibility and move up from there to achieve more inner well being. And we also believe that yoga should be available for everyone with experienced and reliable gurus.
+                        <br></p>
+                      <p class="para">  So Come, get to know the joyous you, become flexible and enhance your inner well being & ultimatelywork on aligning yourslef with the cosmic geometry!!
+                   <br/> </p>
+                </div>                  
+            </div>
+            <p style="padding:10px;"> </p>
+            <hr>
+           <div class="container">
+               <div class="row row-content">
+              <div class="col-xs-4 float">
+                <div class="table_cell2">
+            <img class="image_class img-responsive img-circle" style="height:100px;width:100px" src="images/classes_pic1.png"/>
+                <h3 align="center">Drop-in Classes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <button class="btn btn-primary" type="button">Learn more</button>
                 </div>
-                 <div class="col-xs-12 col-sm-3">
-                    <p style="padding:20px;"></p>
-                </div>
-           </div>
+                <p style="padding:10px;"> </p>
+            </div>          
+            <div class="col-xs-4 float">
+                <div class="table_cell2">
+             <img class="image_class img-responsive img-circle"  style="height:100px;width:100px" src="images/schedule_pic.png"/>
+                <h3 align="center"> Class Schedules</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <button class="btn btn-primary" type="button">Learn more</button>
+                </div><p style="padding:10px;"> </p>
+            </div>
+            <div class="col-xs-4 float">
+                <div class="table_cell2">
+             <img class="image_class img-responsive img-circle" style="height:100px;width:100px" src="images/registeredClasses.png"/> 
+                <h3 align="center">Registered Classes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <button class="btn btn-primary" type="button">Learn more</button>
+                </div><p style="padding:10px;"> </p>
+            </div>
+            <div class="col-xs-offset-2 col-xs-4 float">
+                <div class="table_cell2">
+             <img class="image_class img-responsive img-circle" style="height:100px;width:100px" src="images/workshop_pic.png"/> 
+                <h3 align="center">Workshops</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <button class="btn btn-primary" type="button">Learn more</button>
+                </div><p style="padding:10px;"> </p>
+            </div>
+            <div class=" col-xs-4 float">
+                <div class="table_cell2">
+             <img class="image_class img-responsive img-circle" style="height:100px;width:100px" src="images/private.png"/> 
+                <h3 align="center">Private Classes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <button class="btn btn-primary" type="button">Learn more</button>
+                </div><p style="padding:10px;"> </p>
+            </div>
+            </div>               
+            </div>
         </div>
-        <footer>
+        <p style="padding:20px;"> </p>
+       <footer>
         <div class="container-fluid">
             <div>             
                 <div class="col-xs-6 col-sm-3">
@@ -228,8 +195,7 @@
             </div>
         </div>
 
-        </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        </footer><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
