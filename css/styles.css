@@ -66,16 +66,16 @@ address {
 
 body {
     z-index: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family:sans-serif;
 }
 
-.bgimg1 {
-    background-image: url("/images/aum1.png");
-    height: auto;
-    background-attachment: scroll;
+.bgimg1{
+    background-image:url("../images/aum1.png") ;
+    height:auto;
+    background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size:80%;  
 }
 
 footer .container-fluid {
@@ -200,14 +200,14 @@ footer .container-fluid {
 
 .navbar-default {
     color: #fff;
-   font-family: 'Roboto', sans-serif;
+   font-family:sans-serif;
     background: transparent;
     border: none;
 }
 
 .navbar .navbar-nav {
     display: block;
-   font-family: 'Roboto', sans-serif;
+   font-family: sans-serif;
     font-size: 20px;
     float: left;
     border: none;
